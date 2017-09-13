@@ -1015,6 +1015,10 @@ canvas {
 /* MEDIA - MOBILE */
 
 @media only screen and (max-width: 768px) {
+    .landing_background {
+        background-color: #1A191F;
+        background-image: none;
+    }
     .testimentMain {
         height: 250px;
     }
