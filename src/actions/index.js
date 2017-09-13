@@ -2,7 +2,7 @@
 import axios from 'axios';
 
 
-const ROOT_URL = 'http://reduxblog.herokuapp.com/api';
+const ROOT_URL = 'https://reduxblog.herokuapp.com/api';
 const KEY = '?key=asdfasdf12';
 
 
