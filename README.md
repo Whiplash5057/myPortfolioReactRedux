@@ -1,6 +1,6 @@
 # My Portfolio page
 
-Click [here to view](devdesk.herokuapp.com)
+Click [here to view](https://devdesk.herokuapp.com/)
 
 ### Works using
 
