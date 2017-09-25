@@ -927,25 +927,112 @@ canvas {
 
 /*  NEWSLETTER Style Start  */
 .newsLetterContainer {
-    height: 100vh;
+    height: 60vh;
     background: -webkit-linear-gradient(top, #34091B,#B49A9A , #fff);
+    position: relative;
 }
 .newsLetterDiv {
+    
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
     -ms-flex-wrap: wrap;
         flex-wrap: wrap;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    /* -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center; */
+    height: 100%;
+    overflow: hidden;
+}
+.newsLetterImage {
+    background-image: url(../images/richard.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 120%;
+    width: 100%;
+    margin: 60px 0 0;
+}
+.newsLetterImageBlurLeft {
+    background-image: url(../images/richard.png);
+    background-position: 40%;
+    -webkit-filter: blur(8px);
+            filter: blur(8px);
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 120%;
+    width: 100%;
+    margin: 60px 0 0;
+}
+.newsLetterImageBlurRight {
+    background-image: url(../images/richard.png);
+    background-position: 60%;
+    -webkit-filter: blur(8px);
+            filter: blur(8px);
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 120%;
+    width: 100%;
+    margin: 60px 0 0;
+}
+.newsLetterImageBlurLeftOne {
+    background-image: url(../images/richard.png);
+    background-position: 30%;
+    -webkit-filter: blur(15px);
+            filter: blur(15px);
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 120%;
+    width: 100%;
+    margin: 60px 0 0;
+}
+.newsLetterImageBlurRightOne {
+    background-image: url(../images/richard.png);
+    background-position: 70%;
+    -webkit-filter: blur(15px);
+            filter: blur(15px);
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 120%;
+    width: 100%;
+    margin: 60px 0 0;
+}
+.emailText {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    text-align: center;
+    
+    padding: 30px;
+
+    display: -webkit-box;
+
+    display: -ms-flexbox;
+
+    display: flex;
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
-    height: 100%;
-    overflow: hidden;
 }
-.newsLetterDiv .email {
+.emailTextAnchor {
+    text-decoration: none;
+    color: white;
+    font-size: 50px;
+    font-weight: bold;
+}
+/* .newsLetterDiv .email {
     background: #fff;
     border: 4px solid #fff;
     height: auto;
@@ -1000,9 +1087,8 @@ canvas {
     color: #736178;
     font-size: 55px;
     padding: 20px;
-}
+} */
 /*  NEWSLETTER Style End  */
-
 
 
 

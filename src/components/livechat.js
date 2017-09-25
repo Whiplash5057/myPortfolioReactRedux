@@ -72,7 +72,8 @@ class LiveChat extends Component {
             <section className="chatScreenContainer">
                 <canvas></canvas>
                 <Chatscreen />
-                <div className="chatScreenLogin isVisible">
+                {/* If isVisible is applied then there would be a background overlay over the chatroom */}
+                <div className="chatScreenLogin"> 
                   <div className="chatScreenLoginSingle loginSignupForm">
                     <div className="formTitle">Let's have a conversation...</div>
                     <div className="signUpLoginOptionContainer">
